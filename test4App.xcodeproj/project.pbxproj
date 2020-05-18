@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E26D6782247335B30030A029 /* jiminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D6781247335B30030A029 /* jiminViewController.swift */; };
 		E273DFE924730502003E23CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273DFE824730502003E23CE /* AppDelegate.swift */; };
 		E273DFEB24730502003E23CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273DFEA24730502003E23CE /* SceneDelegate.swift */; };
 		E273DFED24730502003E23CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273DFEC24730502003E23CE /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		E273DFF524730503003E23CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E273DFF324730503003E23CE /* LaunchScreen.storyboard */; };
 		E273E00024730503003E23CE /* test4AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273DFFF24730503003E23CE /* test4AppTests.swift */; };
 		E273E00B24730503003E23CE /* test4AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273E00A24730503003E23CE /* test4AppUITests.swift */; };
+		E273E02724730582003E23CE /* LoginWithFirebaseApp in Resources */ = {isa = PBXBuildFile; fileRef = E273E02624730582003E23CE /* LoginWithFirebaseApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E26D6781247335B30030A029 /* jiminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jiminViewController.swift; sourceTree = "<group>"; };
 		E273DFE524730502003E23CE /* test4App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test4App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E273DFE824730502003E23CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E273DFEA24730502003E23CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		E273E00624730503003E23CE /* test4AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test4AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E273E00A24730503003E23CE /* test4AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test4AppUITests.swift; sourceTree = "<group>"; };
 		E273E00C24730503003E23CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E273E02624730582003E23CE /* LoginWithFirebaseApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LoginWithFirebaseApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				E273DFFE24730503003E23CE /* test4AppTests */,
 				E273E00924730503003E23CE /* test4AppUITests */,
 				E273DFE624730502003E23CE /* Products */,
+				E273E02624730582003E23CE /* LoginWithFirebaseApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +111,7 @@
 				E273DFF124730503003E23CE /* Assets.xcassets */,
 				E273DFF324730503003E23CE /* LaunchScreen.storyboard */,
 				E273DFF624730503003E23CE /* Info.plist */,
+				E26D6781247335B30030A029 /* jiminViewController.swift */,
 			);
 			path = test4App;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				E273DFF524730503003E23CE /* LaunchScreen.storyboard in Resources */,
 				E273DFF224730503003E23CE /* Assets.xcassets in Resources */,
 				E273DFF024730502003E23CE /* Main.storyboard in Resources */,
+				E273E02724730582003E23CE /* LoginWithFirebaseApp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				E273DFED24730502003E23CE /* ViewController.swift in Sources */,
 				E273DFE924730502003E23CE /* AppDelegate.swift in Sources */,
+				E26D6782247335B30030A029 /* jiminViewController.swift in Sources */,
 				E273DFEB24730502003E23CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
